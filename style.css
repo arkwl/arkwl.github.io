@@ -8,8 +8,8 @@
   font-family: 'PT Sans', sans-serif;
   background-color: #E5FFEB;
 }
-
 .contentPanel {
+
   z-index: -10;
   opacity: 0;
   animation: fadeIn ease-in 1;
@@ -17,7 +17,7 @@
   animation-delay: 8s;
   animation-fill-mode: forwards;
   width: 650px;
-  height: 800px;
+  height: 900px;
   background-color: #C4FFD2;
   color: #0B132B;
 }
