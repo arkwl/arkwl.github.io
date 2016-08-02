@@ -50,10 +50,27 @@ h1 {
 .nav {
   margin-top: 468px;
   opacity: 0;
+  width: 300px;
   animation: fadeIn ease-in 1;
   animation-duration: 2s;
   animation-delay: 8s;
   animation-fill-mode: forwards;
+}
+
+.navicons {
+  color:#fff; /*#3B476B*/
+  background-color: #0B132B;
+  border-radius:4px;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  position: relative;
+  display: inline-block;
+  width:300px;
+  height:40px;
+  padding-top: 5px;
+  font-size:20px;
+  margin-top:12px;
 }
 
 @-webkit-keyframes fadeIn {
@@ -130,7 +147,8 @@ content:'\f16d';
   animation-delay: 5s;
   animation-duration: 3s;
   top: 20px;
-  margin-left: -180px;
+  margin-left: -248px;
+  margin-top: -20px;
 }
 
 
