@@ -1,244 +1,72 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Sans);
-@import "compass";
-.bodybody {
-  margin-left:300px;
-  justify-content: center;
-  align-items: center;
-  color: #0B132B;
-  font-family: 'PT Sans', sans-serif;
-  background-color: #E5FFEB;
-}
-.contentPanel {
-
-  z-index: -10;
-  opacity: 0;
-  animation: fadeIn ease-in 1;
-  animation-duration: 2s;
-  animation-delay: 8s;
-  animation-fill-mode: forwards;
-  width: 650px;
-  height: 1110px;
-  background-color: #C4FFD2;
-  color: #0B132B;
+body {
+	position: fixed;
+	background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: 100%;
 }
 
-h1 {
-  text-align: center;
+#background {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: -1;
 }
 
-.bio {
-  margin-left: 40px;
-  margin-right: 40px;
+.title {
+	font-family: "Petrona";
+	position:fixed;
+	font-size: 40px;
+	z-index: 1;
+	width: 60%;
+	height: 70px;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 72px;
+	border-top: 2px solid #0B132B;
+	border-bottom: 2px solid #0B132B;
+    border-radius: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
-.fade-in {
-  opacity: 0;
-  /* make things invisible upon start */
-  -webkit-animation: fadeIn ease-in 1;
-  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation: fadeIn ease-in 1;
-  animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  -webkit-animation-duration: 2s;
-  -moz-animation-duration: 2s;
-  animation-duration: 2s;
-}
-
-.nav {
-  margin-top: 468px;
-  opacity: 0;
-  width: 300px;
-  animation: fadeIn ease-in 1;
-  animation-duration: 2s;
-  animation-delay: 8s;
-  animation-fill-mode: forwards;
-}
-
-.navicons {
-  color:#fff; /*#3B476B*/
-  background-color: #0B132B;
-  border-radius:4px;
-  text-align:center;
-  text-decoration:none;
-  font-family:'PT Sans', sans-serif;
-  position: relative;
-  display: inline-block;
-  width:300px;
-  height:40px;
-  padding-top: 5px;
-  font-size:20px;
-  margin-top:12px;
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.title:hover {
+	opacity: 0.8;
 }
 
 
-.squares{
-  margin-left: 200px;
-  z-index: 200;
-  display: inline-block
-}
-
-.icons {
-  color:#fff; /*#3B476B*/
-  background-color: #0B132B;
-  border-radius:4px;
-  text-align:center;
-  text-decoration:none;
-  font-family:fontawesome;
-  position: relative;
-  display: inline-block;
-  width:60px;
-  height:28px;
-  padding-top:12px;
-}
-
-.icons:hover {
-  background-color:#3B476B;
-}
-
-.icons:nth-of-type(1):before {
-content:'\f003';
-}
-.icons:nth-of-type(2):before {
-content:'\f08c';
-}
-.icons:nth-of-type(3):before {
-content:'\f092';
-}
-.icons:nth-of-type(4):before {
-content:'\f16d';
-}
-
-
-.introScreen {
+nav {
+  max-width: 960px;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
-  position: absolute;
-  animation: bubble;
-  animation-fill-mode: forwards;
-  animation-delay: 5s;
-  animation-duration: 3s;
-  top: 20px;
-  margin-left: -248px;
-  margin-top: -20px;
 }
 
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
 
-/* qq dad thinks it looks better without the countdown
-
-#loading {
+nav ul li {
   display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Pertrona";
+  text-transform:uppercase;
+  color: rgba(0, 35, 122, 0.5);
   font-size: 18px;
-  z-index: 50;
-}
-#time{
-}
-
-/*the green behind the transition*/
-
-.filler {
-  z-index: 8;
-  position: absolute;
-  height: 468px;
-  width: 300px;
-  background-color: #C4FFD2;
+  text-decoration: none;
+  display: block;
 }
 
-.hair {
-  fill: #E5FFEB;
-  position: absolute;
-  z-index: 10;
-  /* fill: #A5FFB9; */
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
 }
 
-.hairBackground {
-  background-color: #0B132B;
-  position: absolute;
-  margin-top: 1px;
-  margin-left: 1px;
-  width: 298px;
-  z-index: 9;
-  animation-name: bar;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
-  animation-duration: 2s;
-}
-
-@keyframes bar {
-  0% {
-    height: 0px;
-  }
-  100% {
-    height: 466px;
-  }
-}
-
-
-/*Button
-.buttonEnter {
-  top: 10px;
-  position: relative;
-  z-index: 15px;
-  background: #0B132B;
-  margin-left: 90px;
-  margin-bottom: 200px;
-  height: 45px;
-  width: 120px;
-  border: none;
-  color: #E5FFEB;
-  font-size: 16px;
-  animation: bubble 10s ease infinite;
-} 
-*/
-
-@keyframes bubble {
-  30% {
-    transform: none;
-  }
-  35% {
-    transform: scale(1.02);
-  }
-  40% {
-    transform: scale(0.97);
-  }
-  45% {
-    transform: scale(1.01);
-  }
-  50% {
-    transform: scale(1);
-  }
-  70% {
-    width: none;
-  }
-  100% {
-    transform: scale(0.6);
-  }
-}
