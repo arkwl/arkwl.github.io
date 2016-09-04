@@ -35,11 +35,9 @@ body {
 #exp{
 	color: #0B132B;
 	font-family: "Lato";
-	margin-top:500px; 
-	margin-bottom:500px;
 	background-color: white;
 	width: 60%;
-	height: 600px;
+	height: 100%;
 	border: 2px solid #C4FFD2; 
 	border-radius: 5s%; 
 }
