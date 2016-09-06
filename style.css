@@ -1,3 +1,6 @@
+@import "compass";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
 body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -89,9 +92,46 @@ nav ul li a:hover {
 	font-family: "Lato";
 }
 
+.squares{
+  width: 580px;
+  height: 150px;
+}
+
 .icons{
 	list-style-image: url(2.gif);
 	margin-left: 10px; 
 	margin-right:10px; 
 	text-align:left;
+}
+
+.icons2 {
+  color:#fff; /*#3B476B*/
+  margin-left: 20px; 
+	margin-right:20px; 
+  background-color: #0B132B;
+  border-radius:4px;
+  text-align:center;
+  text-decoration:none;
+  font-family:fontawesome;
+  width:150px;
+  height:150px;
+  position: relative;
+  display: inline-block;
+}
+
+.icons2:hover {
+  background-color:#C4FFD2;
+}
+
+.icons2:nth-of-type(1):before {
+content:'\f003';
+}
+.icons2:nth-of-type(2):before {
+content:'\f08c';
+}
+.icons2:nth-of-type(3):before {
+content:'\f092';
+}
+.icons:nth-of-type(4):before {
+content:'\f16d';
 }
