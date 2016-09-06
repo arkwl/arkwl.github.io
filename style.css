@@ -17,7 +17,7 @@ body {
 #avatar{
 	height: 200px; 
 	width:200px;
-	border: 2px solid #C4FFD2; 
+	border: 3px solid #C4FFD2; 
 	border-radius: 50%; 
 }
 
@@ -28,7 +28,7 @@ body {
 	margin-top: 20px;
 	width: 320px;
 	height: 175px;
-	border: 2px solid #C4FFD2; 
+	border: 3px solid #C4FFD2; 
 	border-radius: 5s%; 
 }
 
@@ -38,7 +38,7 @@ body {
 	background-color: white;
 	width: 60%;
 	height: 100%;
-	border: 2px solid #C4FFD2; 
+	border: 3px solid #C4FFD2; 
 	border-radius: 5s%; 
 }
 
