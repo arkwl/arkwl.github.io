@@ -134,6 +134,7 @@ nav ul li a:hover {
 
 .icons2:hover {
   background-color:#C4FFD2;
+  color: black;
 }
 
 .icons2:nth-of-type(1):before {
