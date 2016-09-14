@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="minimap.min.css" />
 		<script src="jquery.js"></script>
 		<script src="minimap.min.js"></script>
+		<script src="http://www.yoursite.com/somewhere/on/your/webserver/jquery-scrollto/vendor/jquery.js"></script>
+		
 	</head>
 	<body>
 		<img id="background" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="gaudi_full.svg">
@@ -17,28 +19,31 @@
 		<nav>
 			<ul >
 				<li>
-					<a class="font" href="#about">About</a>
+					<a link="link1" class="font" href="#about">About</a>
 				</li>
 				<li>
-					<a class="font" href="#experience">Experience</a>
+					<a link="link2" class="font" href="#experience">Experience</a>
 				</li>
 				<li>
-					<a class="font" href="#education">Education</a>
+					<a link="link3" class="font" href="#educodes">EDUCodes</a>
 				</li>
 				<li>
-					<a class="font" href="#projects">Projects</a>
+					<a link="link4" class="font" href="#education">Education</a>
 				</li>
 				<li>
-					<a class="font" href="#skills">Skills</a>
+					<a link="link5" class="font" href="#projects">Projects</a>
 				</li>
 				<li>
+					<a link="link6" class="font" href="#skills">Skills</a>
+				</li>
+				<!--<li>
 					<a class="font" href="#publications">Publications</a>
-				</li>
+				</li> -->
 				<li>
 					<a class="font" href="TechnicalResume.pdf">Resume</a>
 				</li>
 				<li>
-					<a class="font" href="#contact">Contact</a>
+					<a link="link7" class="font" href="#contact">Contact</a>
 				</li>
 			</ul>
 		</nav>
@@ -52,7 +57,7 @@
 					<img id="avatar" src="alexa.png">
 					<div id="name">
 						<p style="font-size:30px; padding-top:15px; margin:0;">ALEXA ROCKWELL</p>
-						<p style="margin:7;">Full Stack Developer, Designer, Entrepreneur, Leader, Hardware Engineer.</p>
+						<p style="margin:7;">Aspiring Full Stack Developer, Designer, Entrepreneur, Leader, Architect, Hardware Engineer.</p>
 						<p style="margin:7; padding-bottom:15px;">You can give me a problem, and I'll find a solution.</p>
 					</div>
 				</div>
@@ -63,7 +68,7 @@
 						<p style="font-size:30px; padding-top:15px; margin:0;">PROFESSIONAL EXPERIENCE</p>
 
 						<!-- EDUCodes -->
-						<p style="color:#0B132B; margin:7; float: left; margin-left: 10px;"> <a style="color:#0B132B; font-weight:bold;" href="http://www3.cs.stonybrook.edu/~educodes/">EDUCodes</a> - Founder and CEO</p> 
+						<p style="color:#0B132B; margin:7; float: left; margin-left: 10px;"> <a style="color:#0B132B; font-weight:bold;" target="_blank" href="http://www3.cs.stonybrook.edu/~educodes/">EDUCodes</a> - Founder and CEO</p> 
 						<p style="color:#0B132B; margin:7; float: right; margin-right: 10px;">December 2015 - Present</p>
 						<div style="clear: both;"></div>
 						<li class="icons"> Assembled and led a team of college students who joined the initiative to make an education in Computer Science available to every student in the nation.</li>
@@ -74,7 +79,7 @@
 						<p style="margin:2;"></p>
 
 						<!-- EDUCodes -->
-						<p style="color:#0B132B; margin:7; float: left; margin-left: 10px;"> Freelance Content Manager</p> 
+						<p style="color:#0B132B; margin:7; float: left; margin-left: 10px; font-weight:bold;"> Freelance Content Manager</p> 
 						<p style="color:#0B132B; margin:7; float: right; margin-right: 10px;">August 2016 - Present</p>
 						<div style="clear: both;"></div>
 						<li class="icons"> Created customized website for my client's professional use.</li>
@@ -85,11 +90,20 @@
 						
 
 						<!-- Harvard -->
-						<p style="color:#0B132B; margin:7; float: left; margin-left: 10px;"> <a style="color:#0B132B;font-weight:bold;" href="http://www.wecodeharvard.com/">Harvard's WECode 2016 Conference</a> - Ambassador</p> 
+						<p style="color:#0B132B; margin:7; float: left; margin-left: 10px;"> <a style="color:#0B132B;font-weight:bold;" target="_blank" href="http://www.wecodeharvard.com/">Harvard's WECode 2016 Conference</a> - Ambassador</p> 
 						<p style="color:#0B132B; margin:7; float: right; margin-right: 10px; ">January 2016 - March 2016</p>
 						<div style="clear: both;"></div>
 						<li class="icons"> Event at Harvard University to bring women from all around the world to talk about gender equality in Computer Science. </li>
 						<li class="icons">Served as a coordinator between Stony Brook and Harvard in efforts to bring participants to the event.</li>
+						<li class="icons">Selected to participate in an interview of accomplished women who have attended the conference.</li>
+
+						<p style="margin:2;"></p>
+
+						<i style="margin-left: 5px; margin-right: 5px;">'[She] has the drive and the motivation to overcome... obstacles as the women in Computer Science have done before her.'</i>
+
+						<center>
+							<p style="color:#0B132B; padding-left: 10px; margin:1;"><a target="_blank" href="https://www.facebook.com/harvardwecode/photos/a.246409728867788.1073741828.245369078971853/547903955385029/?type=3&permPage=1" style="color:#0B132B;">'Interview with Alexa Rockwell @ WECode' Harvard WECode. January 2016</a></p>
+						</center>
 
 						<p style="margin:2;"></p>
 
@@ -100,6 +114,35 @@
 						<li class="icons">Calculated financial contracts with Metropolitan Museum of Art, Columbia University, and more.</li>
 						<li class="icons">Estimated the cost of renovating New York City high rises, including partitions and ceiling work, as well as drafting up legal papers.</li>
 						<li class="icons" style="margin-bottom:15px;">Additionally was responsible for monitoring the company servers, setting up work stations, and creating their database.</li>
+					</div>
+
+				<div style="height:150px;"></div>
+				<a name="educodes"></a>
+				<div style="height:300px;"></div>
+
+					<div id="exp">
+						<p style="font-size:30px; padding-top:15px; margin:0;">EDUCODES</p>
+						<!-- EDUCodes -->
+						<p style="color:#0B132B; margin:2; float: left; margin-left: 10px; font-weight:bold;">Stony Brook University - BS in Computer Science (Honors)</p> 
+						<p style="color:#0B132B; margin:2; float: right; margin-right: 10px;">August 2014 - May 2018</p>
+						<div style="clear: both;"></div>
+						<p style=" margin:0; text-align: left; margin-left: 10px;"> Specialization in Systems Software Development</p>
+						<p style=" margin:0; text-align: left; margin-left: 10px;"> Student Ambassador</p>
+						<p style=" margin:0; text-align: left; margin-left: 10px;"> Vice President - Women in Science and Engineering SLC</p>
+						<p style=" margin:0; text-align: left; margin-left: 10px;"> Treasurer - Stony Brook Quidditch Team</p>
+
+						<p style="margin:2;"></p>
+
+						<!-- Harvard -->
+						<p style="color:#0B132B; margin:2; float: left; margin-left: 10px; font-weight:bold;">Udacity- Nanodegree in Android Development</p> 
+						<p style="color:#0B132B; margin:2; float: right; margin-right: 10px;">June 2016 - August 2016</p>
+						<div style="clear: both;"></div>
+						<p style="margin:0; text-align: left; margin-left: 10px;"> Online program that teaches the tools, principles, and patterns that underlie all Android development.</p>
+
+						<p style="color:#0B132B; margin:2; margin-left: 10px; font-weight:bold; text-align:left;">New Rochelle High School</p> 
+						<p style="margin-left: 10px; margin:0; text-align: left; margin-left: 10px;"> FIRST Robotics Team - Instituted the 'NewRoBots', a team that continues to compete at FRC regionals and has won awards every year.</p>
+						<p style="margin-left: 10px; margin:0; text-align: left; margin-left: 10px; padding-bottom:20px;"> Spearheaded a movement to bring the course "AP Computer Science" to an inner city school.</p>
+
 					</div>
 
 				<div style="height:150px;"></div>
@@ -138,23 +181,23 @@
 				<div id="exp">
 						<p style="font-size:30px; padding-top:15px; margin:0;">PROJECTS</p>
 
-						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">AR Test - Learned the basics of 3D modeling and the Unity engine, and combined it with my knowledge of Android development to create an augmented reality app. <a href="https://github.com/arkwl/ar-unity-test" style="color:#0B132B;">REPO.</a></p>
+						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">AR Test - Learned the basics of 3D modeling and the Unity engine, and combined it with my knowledge of Android development to create an augmented reality app. <a href="https://github.com/arkwl/ar-unity-test" target="_blank" style="color:#0B132B;">REPO.</a></p>
 
-						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">This website!! - <a href="https://github.com/arkwl/arkwl.github.io" style="color:#0B132B;">REPO.</a></p>
+						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">This website!! - <a href="https://github.com/arkwl/arkwl.github.io" target="_blank" style="color:#0B132B;">REPO.</a></p>
 						<!-- EDUCodes -->
-						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">Dijkstra's Gems - Java program where I have incorporated dijkstra's algorithm within a mining game based off of the show Steven Universe. Just wanted to learn how to code it, and later decided to use it in my application to the Recurse Center. Still in progress. <a href="https://github.com/arkwl/steven-universe-mining-mini-game" style="color:#0B132B;">REPO.</a></p>
+						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">Dijkstra's Gems - Java program where I have incorporated dijkstra's algorithm within a mining game based off of the show Steven Universe. Just wanted to learn how to code it, and later decided to use it in my application to the Recurse Center. Still in progress. <a href="https://github.com/arkwl/steven-universe-mining-mini-game" target="_blank" style="color:#0B132B;">REPO.</a></p>
 
-						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">PokemonGo Server Checker - An android app which uses Jsoup to extract data from a website that reports the status of the Pokemon Go servers. It also sends notifications whenever there's significant change in those servers. Still in progress. <a href="https://github.com/arkwl/ServerCheckApp" style="color:#0B132B;">REPO.</a></p>
+						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">PokemonGo Server Checker - An android app which uses Jsoup to extract data from a website that reports the status of the Pokemon Go servers. It also sends notifications whenever there's significant change in those servers. Still in progress. <a href="https://github.com/arkwl/ServerCheckApp" target="_blank" style="color:#0B132B;">REPO.</a></p>
 
-						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="http://mybey.ankin.info/" style="color:#0B132B;">MyBey</a> - A Beyonce themed chatbot which was my first hand experience with web development and utilizing Python libraries that helped with topic modeling. <a href="https://github.com/ramda2/myBey" style="color:#0B132B;">REPO.</a></p>
+						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="http://mybey.ankin.info/" target="_blank" style="color:#0B132B;">MyBey</a> - A Beyonce themed chatbot which was my first hand experience with web development and utilizing Python libraries that helped with topic modeling. <a href="https://github.com/ramda2/myBey" target="_blank" style="color:#0B132B;">REPO.</a></p>
 
 						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">Shell - A program that simulates a UNIX based terminal written in C. </p>
 
 						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;">Miner Node Simulation - Honors research project which simulated mining a cryptocurrency.</p>
 
-						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="http://devpost.com/software/archrover" style="color:#0B132B;">ArchRover</a> - Product of my first hackathon. An drone equipped with sensors to map out the floor plan of a room, then transmit that data via SMS to a web interface. <a href="https://github.com/arkwl/MAKECU-ArchRover" style="color:#0B132B;">REPO.</a></p>
+						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="http://devpost.com/software/archrover"  target="_blank" style="color:#0B132B;">ArchRover</a> - Product of my first hackathon. An drone equipped with sensors to map out the floor plan of a room, then transmit that data via SMS to a web interface. <a href="https://github.com/arkwl/MAKECU-ArchRover" target="_blank" style="color:#0B132B;">REPO.</a></p>
 
-						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="http://anymealapp.com/" style="color:#0B132B;">Anymeal</a> - Designed the UI for an iOS application. <a href="https://github.com/arkwl/MAKECU-ArchRover" style="color:#0B132B;">REPO.</a></p>
+						<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="http://anymealapp.com/" target="_blank" style="color:#0B132B;">Anymeal</a> - Designed the UI for an iOS application. <a href="https://github.com/arkwl/MAKECU-ArchRover" target="_blank" style="color:#0B132B;">REPO.</a></p>
 				</div>
 
 				<div style="height:200px;"></div>
@@ -214,11 +257,9 @@
 				<div id="exp" style="height:180px;">
 					<p style="font-size:30px; padding-top:15px; padding-bottom:5px; margin:0;">PUBLICATIONS</p>
 
-					<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="https://www.cs.stonybrook.edu/about-us/News/Computer-Science-Mentors-IgniteCS-help-Google" style="color:#0B132B;">Stony Brook University / May 2016 - Mentors Receive Help From Google</a></p>
+					<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="https://www.cs.stonybrook.edu/about-us/News/Computer-Science-Mentors-IgniteCS-help-Google" target="_blank" style="color:#0B132B;">Stony Brook University / May 2016 - Mentors Receive Help From Google</a></p>
 
-					<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="https://www.facebook.com/harvardwecode/photos/a.246409728867788.1073741828.245369078971853/547903955385029/?type=3&permPage=1" style="color:#0B132B;">Harvard WECode / January 2016 - Interview with WECode</a></p>
-
-					<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="http://www.slj.com/2014/04/feature-articles/new-york-school-librarian-builds-robot-with-robotics-club-and-competes-in-regional-robots-competition/" style="color:#0B132B;">School Library Journal / April 2014 - New Rochelle Robotics Team Compete at FRC</a></p>
+					<p style="color:#0B132B; padding-left: 10px; margin:2; text-align:left;"><a href="http://www.slj.com/2014/04/feature-articles/new-york-school-librarian-builds-robot-with-robotics-club-and-competes-in-regional-robots-competition/" target="_blank" style="color:#0B132B;">School Library Journal / April 2014 - New Rochelle Robotics Team Compete at FRC</a></p>
  				</div>
 			</div>
 
@@ -227,9 +268,9 @@
 			<a name="contact"></a>
 
 			<div class="squares" style="margin: auto; position: relative;">
- 		    	<div class="icons2" onclick="window.open('mailto:alexa.rockwell@stonybrook.edu','mywindow');" style="cursor: pointer;"> <a style="line-height: 150px; font-size:40px;" href=""></a></div>
-     			<div class="icons2" onclick="window.open('https://www.linkedin.com/in/alexa-rockwell-002480121','mywindow');" style="cursor: pointer;"> <a style="line-height: 150px; font-size:40px;" href=""></a></div>
-     			<div class="icons2" onclick="window.open('https://github.com/arkwl','mywindow');" style="cursor: pointer;"> <a style="line-height: 150px; font-size:40px;" href=""></a></div>
+ 		    	<div class="icons2" target="_blank" onclick="window.open('mailto:alexa.rockwell@stonybrook.edu','mywindow');" style="cursor: pointer;"> <a style="line-height: 150px; font-size:40px;" href=""></a></div>
+     			<div class="icons2" target="_blank" onclick="window.open('https://www.linkedin.com/in/alexa-rockwell-002480121','mywindow');" style="cursor: pointer;"> <a style="line-height: 150px; font-size:40px;" href=""></a></div>
+     			<div class="icons2" target="_blank" onclick="window.open('https://github.com/arkwl','mywindow');" style="cursor: pointer;"> <a style="line-height: 150px; font-size:40px;" href=""></a></div>
     		</div>
     		<div style="height:300px;"></div>
 			<div style="height:50px;"></div>
@@ -249,6 +290,39 @@
 			   	}
 			}			
 			window.onload = init;
+
+			function scrollToAnchor(aid){
+    			var aTag = $("a[name='"+ aid +"']");
+    			$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+			}
+
+			$("#link1").click(function() {
+   				scrollToAnchor('about');
+			});
+
+			$("#link2").click(function() {
+   				scrollToAnchor('experience');
+			});
+
+			$("#link3").click(function() {
+   				scrollToAnchor('educcodes');
+			});
+
+			$("#link4").click(function() {
+   				scrollToAnchor('education');
+			});
+
+			$("#link5").click(function() {
+   				scrollToAnchor('projects');
+			});
+
+			$("#link6").click(function() {
+   				scrollToAnchor('skills');
+			});
+
+			$("#link7").click(function() {
+   				scrollToAnchor('contact');
+			});
 		</script>
 	</body>
 	<!-- https://fonts.google.com/?selection.family=Bree+Serif|Codystar|Didact+Gothic|EB+Garamond|Flamenco|Gentium+Basic|Josefin+Sans|Julius+Sans+One|Kumar+One+Outline|Marmelad|Maven+Pro|Nunito|Oldenburg|Open+Sans|Petrona|Raleway|Snippet -->
