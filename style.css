@@ -2,8 +2,11 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
 
 body {
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     left: 0;
     right: 0;
     top: 0;
