@@ -13,6 +13,7 @@ body {
     bottom: 0;
     background-size: 100%;
     background-position: center; 
+    width=device-width;
 }
 
 .content{
