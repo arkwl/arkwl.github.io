@@ -161,12 +161,12 @@ p {
     width: 150%;
     vertical-align: middle;
     width: 33.33333333%;
-    float: ;
+    float: center;
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
-    display: block;
+    text-align:center;
     margin: auto;
 }
 
@@ -262,9 +262,10 @@ tuor:visited {
 }
 .inner_about_area {
     padding-top: 50px;
+    padding-bottom: 900px;
 }
 .inner_about_title {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .inner_about_title h2 {
     text-transform: uppercase;
@@ -289,8 +290,8 @@ tuor:visited {
 }
 .inner_about_desc {} .single_about_area {
     position: relative;
-    padding-bottom: 4px;
-    padding-left: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 .single_about_area div {
     position: absolute;
@@ -331,8 +332,8 @@ tuor:visited {
 
 .video_area {
     background: #e4e4e4;
-    padding-bottom: 140px;
-    padding-top: 120px;
+    padding-bottom: 150px;
+    padding-top: 50px;
 }
 .video_title {
     padding-bottom: 30px;
