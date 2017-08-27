@@ -31,17 +31,6 @@ canvas{
 }
 
 .content {
-    /*
-    position:fixed;
-    display:absolute;
-    /* background-color: white;
-    height:94vh;
-    width:70%;
-    z-index:9900;
-    /* opacity:0.2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     overflow-y: scroll;
     height:94vh;
 }
