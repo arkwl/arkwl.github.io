@@ -7,8 +7,8 @@ html, body{
     padding:0;
     background-color:#ffffff;
     position: relative;
-    font-family: 'Montserrat', sans-serif;
-    color: #FFF;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #FFF !important;
 }
 
 canvas{
@@ -16,6 +16,19 @@ canvas{
     position:absolute;
     top:0;
     left:0;
+}
+
+.row {
+    margin-bottom: 9vh !important;
+}
+
+.scrollbar
+{
+	height:94vh;
+	/*background: #F5F5F5;*/
+	margin-bottom: 25px;
+    overflow-y: scroll;
+    overflow-x: hidden; 
 }
 
 .main-pane {
@@ -28,11 +41,12 @@ canvas{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 }
 
 .content {
-    overflow-y: scroll;
-    height:94vh;
+    /* overflow-y: scroll; */
+
 }
 
 .title {
@@ -66,4 +80,46 @@ canvas{
     color: white;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
+}
+
+/* the scrollbar area itself */
+::-webkit-scrollbar {
+    background:rgba(0,0,0,0.7)
+}
+/* the up/down/left/right buttons */
+::-webkit-scrollbar-button {
+
+}
+/* the zone where the scroll will happen */
+::-webkit-scrollbar-track {
+
+}
+/* not sure what this is */
+::-webkit-scrollbar-track-piece {
+
+}
+/* the famous "elevator" */
+::-webkit-scrollbar-thumb {
+
+}
+/* what stands in the corner, between the horizontal and the vertical scrollbars */
+::-webkit-scrollbar-corner {
+
+}
+/* the resizer thingy into that corner */
+::-webkit-resizer {
+
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.7);
 }
