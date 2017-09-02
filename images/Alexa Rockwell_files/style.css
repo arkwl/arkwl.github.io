@@ -22,7 +22,20 @@ canvas{
     margin-bottom: 9vh !important;
 }
 
+.me {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.me img {
+    width: 100%;
+    height: auto;
+}
 
 .scrollbar
 {
@@ -44,12 +57,6 @@ canvas{
     left: 50%;
     transform: translate(-50%, -50%);
 
-}
-
-.me{
-    display:block;
-    height: 40vh;
-    margin: auto;
 }
 
 .content {
