@@ -56,7 +56,7 @@ var Application = function () {
     this.height = window.innerHeight;
 
     // Define the assets that PIXI needs to preload to use later in the application
-    this.loader = PIXI.loader.add('https://stefanweck.nl/codepen/alpha.png').add('https://stefanweck.nl/codepen/shine.png').add('https://raw.githubusercontent.com/arkwl/arkwl.github.io/master/images/background3.png').add('https://stefanweck.nl/codepen/foreground.jpg').load(function () {
+    this.loader = PIXI.loader.add('https://stefanweck.nl/codepen/alpha.png').add('https://stefanweck.nl/codepen/shine.png').add('https://raw.githubusercontent.com/arkwl/arkwl.github.io/master/images/background4.png').add('https://stefanweck.nl/codepen/foreground.jpg').load(function () {
       return _this.initialize();
     });
   }
@@ -162,9 +162,9 @@ var EffectCanvas = function () {
 
     // Send information about the textures and the size of the background texture through the uniforms to the shader
     shaderData.uniforms.uTextureDropShine.value = loader.resources['https://stefanweck.nl/codepen/shine.png'].texture;
-    shaderData.uniforms.uTextureBackground.value = loader.resources['https://raw.githubusercontent.com/arkwl/arkwl.github.io/master/images/background3.png'].texture;
+    shaderData.uniforms.uTextureBackground.value = loader.resources['https://raw.githubusercontent.com/arkwl/arkwl.github.io/master/images/background4.png'].texture;
     shaderData.uniforms.uTextureForeground.value = loader.resources['https://stefanweck.nl/codepen/foreground.jpg'].texture;
-    shaderData.uniforms.vTextureSize.value = [loader.resources['https://raw.githubusercontent.com/arkwl/arkwl.github.io/master/images/background3.png'].texture.width, loader.resources['https://raw.githubusercontent.com/arkwl/arkwl.github.io/master/images/background3.png'].texture.height];
+    shaderData.uniforms.vTextureSize.value = [loader.resources['https://raw.githubusercontent.com/arkwl/arkwl.github.io/master/images/background4.png'].texture.width, loader.resources['https://raw.githubusercontent.com/arkwl/arkwl.github.io/master/images/background4.png'].texture.height];
 
     // Create our Pixi filter using our custom shader code
     this.dropletShader = new PIXI.Filter('', shaderData.fragment, shaderData.uniforms);
