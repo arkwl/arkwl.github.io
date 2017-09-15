@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Alexa Rockwell</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.3.5/pixi.min.js'></script>
+
+
+    <script src="js/index.js"></script>
+    <div class="main-pane">
+        <div id="navigation">
+	        <!-- <h3>Categories</h3>  -->
+            <div>
+	           <a href="#">HOME</a>
+	           <a href="#">EDUCATION</a>
+	           <a href="#">EXPERIENCE</a>
+	           <a href="#">PROJECTS</a>
+	           <a href="#">CONTACT</a>
+            </div>
+        </div>
+        <div class="scrollbar">
+        <div class="content">
+            <div style="height: 100vh; background:rgba(0,0,0,0.5);">
+                <div style="padding-top: 15vh;">
+                    <img class="me" src="./images/me.png" />
+                    <h1 style="color:white; text-align: center; font-size:10vh;font-weight: bold;margin-top:3px;" >Alexa Rockwell</h1>
+                    <h3 style="color:white; text-align: center; font-size:4vh;">Hacker & Full Stack Developer</h3>
+                </div>
+            </div>
+            <div style="background:rgba(0,0,0,0.7);padding:5vh; border-bottom: 1px solid white; border-top: 1px solid white;">
+                <h1 style="color:white;font-size:6vh;margin-bottom:4vh;" >EDUCATION</h1>
+                <h4 style="font-weight: bold;">Stony Brook University - BS in Computer Science (Honors)</h4>
+                <p>August 2014 - May 2018<p>
+                <p>Student Ambassador - "This extraordinary group of students, who have been chosen in a most competitive forum, must uphold rigorous standards, both academically and in service to their community."<p>
+                <p>Vice President of Stony Brook Computing Society (Fall 2017-Spring 2018)</p>
+                <p>Vice President of Women in Science and Engineering SLC (Fall 2016-Spring 2017)</p>
+            </div>
+            <div style="background:rgba(0,0,0,0.7);padding:5vh; border-bottom: 1px solid white; border-top: 1px solid white;">
+                <h1 style="color:white;font-size:6vh;margin-bottom: 7vh !important;" >EXPERIENCE</h1>
+
+                <div class="row">
+                    <div class="col-4">
+                        <img style="width:30vh;" src="./images/Softheon.png"/>
+                    </div>
+                    <div class="col">
+                        <h4>Softheon - Software Engineering Intern</h4>
+                        <p>June 2017 - Present<p>
+                        <p>Tasked with creating a clean reporting web interface (Angular CLI) that sits ontop of a created REST API that facilitates calls between the front end and database.<p>
+                        <p>Created a "query builder", a UI that turns the user options into a dynamic OData string.</p>
+                        <p>Used OAuth to authenticate user, and save their report preferences.</p>
+                        <p>Implementing subscription service as well as exporting of SVG graphs to all file formats.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <img style="width:30vh;" src="./images/mlh.png"/>
+                    </div>
+                    <div class="col">
+                        <h4>Major League Hacking - Coach</h4>
+                        <p>June 2017 - Present<p>
+                        <p>Travelled to hackathons across North America, ensuring smooth event operation and improving the experience for participants.<p>
+                        <p>Onboarded developers with corporate partners’ hardware/software and gave opening talk to kick off each event.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <img style="width:30vh;" src="./images/rsrchr.png"/>
+                    </div>
+                    <div class="col">
+                        <h4>RSRCHR - Full Stack Web Developer</h4>
+                        <p>January 2017 - June 2017<p>
+                        <p>RSRCHR is a cloud-based platform that provides a secure extensible data storage and processing environment for neuroscience-based researchers.</p>
+                        <p>Assured that all user input is validated before submitting to back-end. Closely worked with back-end developers to optimize data filtering and load time by implementing infinite scroll for maximum speed and scalability.<p>
+                        <p>Collaborated with the team to define the information architecture.</p>
+                        <p>Created clean, precise browser-compatible code.</p>
+                        <p>Implemented functionality in JavaScript, JQuery, and Python and page loading in standards-compliant dynamic HTML and CSS.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <img style="width:30vh;" src="./images/google.png"/>
+                    </div>
+                    <div class="col">
+                        <h4>IgniteCS - Team Leader</h4>
+                        <p>December 2015 - May 2017<p>
+                        <p>Assembled and lead a team of college students who joined the initiative to make an education in Computer Science available to every student in the nation.</p>
+                        <p>Worked directly with school districts, and classes K-12.<p>
+                        <p>Currently supported by Google's IgniteCS program.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <img style="width:30vh;" src="./images/wecode.png"/>
+                    </div>
+                    <div class="col">
+                        <h4>Harvard's WECode Conference - Ambassador</h4>
+                        <p>February 2016 - Present<p>
+                        <p>Event at Harvard University to bring women from all around the world to talk about gender equality in Computer Science.<p>
+                        <p>Served as a coordinator between Stony Brook and Harvard in efforts to bring participants to the event.</p>
+                        <p>Selected to participate in an interview of accomplished women who have attended the conference.</p>
+                    </div>
+                </div>
+
+                <!--
+                <div class="row" style="margin-bottom: 0px !important;">
+                    <div class="col-4">
+                    </div>
+                    <div class="col">
+                        <h4>Eclipse Contracting - Estimator</h4>
+                        <p>January 2014 - March 2016<p>
+                        <p>Calculated financial contracts with Metropolitan Museum of Art, Columbia University, & more.<p>
+                        <p>Estimated the cost of renovating New York City high rises, including partitions and ceiling work, as well as drafting up legal papers.</p>
+                        <p>Additionally was responsible for monitoring the company servers, setting up work stations, and creating their database.</p>
+                    </div>
+                </div> -->
+
+            </div>
+
+            <div style="background:rgba(0,0,0,0.7);padding:5vh; border-bottom: 1px solid white; border-top: 1px solid white;">
+                <h1 style="color:white;font-size:6vh;margin-bottom: 7vh !important;" >PROJECTS</h1>
+
+                <div class="row">
+                    <div class="col">
+                        <p>Trail Hub - Aggregates data for user about camping grounds depending on time of availability and location. Provides weather update for the week and allows for collaboration with people who want to plan a hiking trip. Utilizes the Google Maps API, Google Calendar API, and OpenWeatherMap API. Mentored two high school students through the process and integrated their contributions.</p>
+
+                        <p>Spotify Intersect - Personal project, android application that creates a playlist of similarities between users, utilizing the Spotify Android API.</p>
+
+                        <p>AR Test - Learned the basics of 3D modeling and the Unity engine, and combined it with my knowledge of Android development to create an augmented reality app. Currently learning how to utilize a Xbox Kinect with Processing and Unity.REPO. </p>
+
+                        <p>Dijkstra's Gems - Java program where I have incorporated dijkstra's algorithm within a mining game based off of the show Steven Universe. Just wanted to learn how to code it, and later decided to use it in my application to the Recurse Center. Still in progress. REPO. </p>
+
+                        <p>PokemonGo Server Checker - An android app which uses Jsoup to extract data from a website that reports the status of the Pokemon Go servers. It also sends notifications whenever there's significant change in those servers. Still in progress. REPO.</p>
+
+                        <p>MyBey - A Beyonce themed chatbot which was my first hand experience with web development and utilizing Python libraries that helped with topic modeling. REPO.</p>
+
+                        <p>Shell - A program that simulates a UNIX based terminal written in C.</p>
+
+                        <p>Miner Node Simulation - Honors research project which simulated mining a cryptocurrency.</p>
+
+                        <p>ArchRover - Product of my first hackathon. An drone equipped with sensors to map out the floor plan of a room, then transmit that data via SMS to a web interface. </p>
+
+                        <p>Anymeal - Designed the UI for an iOS application. REPO.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="background:rgba(0,0,0,0.7);padding:5vh; border-bottom: 1px solid white; border-top: 1px solid white;">
+                <h1 style="color:white;font-size:6vh;margin-bottom: 5vh !important;" >CONTACT</h1>
+
+                <div class="row" style="margin-bottom:2px !important; padding-left: 3vh;">
+                        <p>info@alexarockwell.com</p>
+                </div>
+                <div class="row" style="margin-bottom:2px !important; padding-left: 3vh;">
+                    <i class="fa fa-github" aria-hidden="true" style="margin-right:5px;"></i>
+                    <a href="https://github.com/arkwl" target="_blank" style="color: white;">Github</a>
+                </div>
+                <div class="row" style="margin-bottom:2px !important; padding-left: 3vh;">
+                    <i class="fa fa-linkedin-square" aria-hidden="true" style="margin-right:5px;"></i>
+                    <a href="https://www.linkedin.com/in/alexa-rockwell/" target="_blank" style="color: white;">LinkedIn</a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
