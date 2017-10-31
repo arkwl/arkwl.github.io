@@ -1,3 +1,21 @@
-<p>
-  user-view works!
-</p>
+<div id="user">
+  <ul>
+    <li *ngFor="let default of defaultConsts">
+      {{ default }}
+    </li>
+
+  </ul>
+
+  <p><b>YOUR LIBRARY</b></p>
+  <ul>
+    <li *ngFor="let library of libraryConsts">
+      {{ library }}
+    </li>
+  </ul>
+  <p><b>PLAYLISTS</b></p>
+  <ul>
+    <li *ngFor="let playlist of playlists">
+      {{ playlist }}
+    </li>
+  </ul>
+</div>

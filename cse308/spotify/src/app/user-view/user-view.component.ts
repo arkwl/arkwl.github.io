@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-view.component.css']
 })
 export class UserViewComponent implements OnInit {
+  defaultConsts = ['Browse', 'Radio'];
+  libraryConsts = [
+                  'Your Daily Mix','Recently Played','Songs','Albums',
+                  'Stations','Local Files','Videos', 'Podcasts'
+                ];
+  // This should be pulled from user.playlists
+  playlists = ['Classic Rock', 'Groovy', 'Punk', 'Rap', 'Kanye is God'];
 
   constructor() { }
 
